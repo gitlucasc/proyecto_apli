@@ -4,3 +4,7 @@ body{
 p {
     color: #EEF5FF;
 }
+.custom-btn {
+    font-size: 1.5rem; /* Tamaño de la fuente */
+    padding: 15px 30px; /* Relleno (espaciado) del botón */
+}
