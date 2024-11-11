@@ -5,49 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio De Aplicaciones</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        .banner {
+            background-color: #d0ebff;
+            padding: 2rem;
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 2rem;
+        }
+        h1, h2, h3 {
+            color: #333;
+            text-align: center;
+        }
+        .subtitle {
+            font-style: italic;
+            color: #666;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            color: #003366;
+        }
+        ul li {
+            padding: 8px 0;
+        }
+        .btn-primary {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">LABORATORIO DE APLICACIONES</h1>
-    <p style="text-align : center;">La materia Laboratorio de Aplicaciones es una asignatura que contribuye a la evaluación y selección de plataformas de producción de hardware y software para la ejecución de aplicaciones y servicios informáticos. 
-    </p>
-    <h3><i>PROFESOR: Aldo Delgado </i></h3>
-    <h3><i>DÍA: JUEVES </i></h3>
-    <h3><i>CARGA HORARIA: 13:15 a 15:15</i></h3>
-    <h3>EXIGENCIA: ★★★★☆</h3>
-    <h3>CONTACTO: prof.aldodelgado@gmail.com</h3>
 
-    <h1>CONTENIDOS:</h1>
-    <h2>PRIMER CUATRIMESTRE:</h2>
-    <ul>
-        <li>Conocer la historia de la evolución de Internet y la WWW.</li>
-        <li>Identificar la estructura de un documento HTML.</li>
-        <li>Lograr la maquetación básica de una página web.</li>
-        <li>Conocer en profundidad la sintaxis de las etiquetas más utilizadas en el Lenguaje HTML.</li>
-        <li>Conocer en profundidad la sintaxis de las etiquetas más utilizadas en el Lenguaje HTML.</li>
-        <li>Analizar la estructura de páginas web diseñadas, desde el punto de vista del código fuente.</li>
+    <header class="banner text-center">
+        <h1 class="display-4">Laboratorio de Aplicaciones</h1>
+        <p class="lead">Evaluación y selección de plataformas de producción de hardware y software para aplicaciones y servicios informáticos</p>
+    </header>
+
+    <div class="container">
+        <h1>Laboratorio de Aplicaciones</h1>
+        <p class="mx-auto text-center" style="width: 75%;">La materia Laboratorio de Aplicaciones es una asignatura que contribuye a la evaluación y selección de plataformas de producción de hardware y software para la ejecución de aplicaciones y servicios informáticos.</p>
         
-    </ul>
-    <h2>SEGUNDO CUATRIMESTRE:</h2>
-    <ul>
-        <li>Programar un script con JAVASCRIPT.</li>
-        <li>Adquirir conocimientos sobre el lenguaje CSS.</li>
-        <li>Conectar un documento HTML con una hoja de restillos CSS.</li>
-        <li>Conocer aspectos y expresiones básicas del lenguaje PHP.</li>
-        <li>Utilizar el lenguaje PHP para conectar la web a un Servidor.</li> 
-        <li>Conocer aspectos generales del lenguaje SQL.</li>
+        <div class="text-center mt-4">
+            <h3 class="subtitle">Profesor: Aldo Delgado</h3>
+            <h3 class="subtitle">Día: Jueves</h3>
+            <h3 class="subtitle">Carga Horaria: 13:15 a 15:15</h3>
+            <h3>Exigencia: ★★★★☆</h3>
+            <h3>Contacto: prof.aldodelgado@gmail.com</h3>
+        </div>
 
-        <h1 style="text-align: center;">TRABAJO PRACTICO INTEGRADOR ANUAL</h1>
-        <h2 style="text-align: center;">El trabajo INTEGRADOR constara de :</h2>
-        <li style="text-align: center">Una serie de preguntas teóricas acerca del lenguaje HTML, CSS, PHP y SQL.</li>
-        <li style="text-align: center">Resolución de problemas a partir de un código dado</li>
-        <li style="text-align: center">    Maquetación de una web utilizando todos los saberes aprendidos.</li>
+        <h2 class="mt-5">Contenidos:</h2>
 
-        
-            
-            
-           
-            
-    </ul>
-    <p><a href="../index.html">VOLVER ATRÁS</a></p>
+        <h2 class="mt-4">Primer Cuatrimestre:</h2>
+        <ul class="text-center">
+            <li>Historia de la evolución de Internet y la WWW</li>
+            <li>Estructura de un documento HTML</li>
+            <li>Maquetación básica de una página web</li>
+            <li>Sintaxis de etiquetas HTML más utilizadas</li>
+            <li>Análisis de la estructura de páginas web desde el código fuente</li>
+        </ul>
+
+        <h2 class="mt-4">Segundo Cuatrimestre:</h2>
+        <ul class="text-center">
+            <li>Programación de scripts con JavaScript</li>
+            <li>Fundamentos de CSS</li>
+            <li>Conexión de HTML con CSS</li>
+            <li>Introducción al lenguaje PHP</li>
+            <li>Conexión web a un servidor con PHP</li>
+            <li>Conceptos generales de SQL</li>
+        </ul>
+
+        <h1 class="mt-5 text-center">Trabajo Práctico Integrador Anual</h1>
+        <h2 class="text-center">El trabajo integrador constará de:</h2>
+        <ul class="text-center">
+            <li>Preguntas teóricas sobre HTML, CSS, PHP y SQL</li>
+            <li>Resolución de problemas con código dado</li>
+            <li>Maquetación de una web integrando todos los conocimientos adquiridos</li>
+        </ul>
+
+        <div class="text-center mt-5">
+            <a href="../index.html" class="btn-primary">VOLVER ATRÁS</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

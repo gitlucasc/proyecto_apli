@@ -4,33 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARTE</title>
+    <title>Arte</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para íconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados para el banner */
+        .banner {
+            background-color: #add8e6; /* Azul claro */
+            background-image: url('https://www.transparenttextures.com/patterns/brush.png'); /* Patrón de pinceladas */
+            color: #fff;
+            padding: 2rem;
+        }
+        .banner .icon {
+            font-size: 2.5rem;
+            color: #ffd700; /* Dorado */
+            margin: 0 1rem;
+        }
+
+        /* Contenedor principal */
+        .container {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 2rem;
+        }
+
+        /* Estilo para títulos y subtítulos */
+        h1, h2, h3 {
+            color: #333;
+            text-align: center;
+        }
+        
+        .subtitle {
+            font-style: italic;
+            color: #666;
+        }
+
+        /* Lista de contenidos */
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            color: #003366;
+        }
+
+        ul li {
+            padding: 8px 0;
+        }
+
+        /* Estilo para el botón "Volver Atrás" */
+        .btn-primary {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">ARTE</h1>
-    <p style="width: 50%;">La materia arte es una materia que explora la creación y apreciación de las expresiones visuales, auditivas y performativas realizadas por el ser humano.</p>
-    <h3><i>PROFESOR: MAX GONZALEZ</i></h3>
-    <h3><i>DÍA: JUEVES</i></h3>
-    <h3><i>CARGA HORARIA: 20:00HS A 22HS</i></h3>
-    <h3>EXIGENCIA: ★☆☆☆☆</h3>
-    <h3>CONTACTO:maxcarreras@coches.com</h3>
 
+    <!-- Banner decorativo -->
+    <header class="banner text-center">
+        <div class="d-flex justify-content-center align-items-center">
+            <i class="fas fa-palette icon"></i>
+            <h1 class="display-4">Bienvenidos a la Materia de Arte</h1>
+            <i class="fas fa-brush icon"></i>
+        </div>
+        <p class="lead">Explora la creación y apreciación de las expresiones artísticas</p>
+    </header>
 
-    <h1>CONTENIDOS:</h1>
-    <h2>PRIMER CUATRIMESTRE:</h2>
-    <ul>
-        <li>ESCALAS DE GRISES</li>
-        <li>SURREALISMO</li>
-        <li>LOS RELOJES DE DALÍ Y UN ENFOQUE CRÍTICO DEL TIEMPO PERDIDO</li>
-       
-    </ul>
-    <h2>SEGUNDO CUATRIMESTRE:</h2>
-    <ul>
-        <li>HISTORIA DEL ARTE</li>
-        <li>ANDY WARHOL Y LO ABSURDO DE LO ABSURDO</li>
-        <li>EL FUTURO DEL ARTE</li>
-       
-    </ul>
-    <p><a href="../index.html">VOLVER ATRÁS</a></p>
+    <!-- Contenido principal -->
+    <div class="container">
+        <h1>Arte</h1>
+        <p class="mx-auto text-center" style="width: 75%;">La materia de arte explora la creación y apreciación de expresiones visuales, auditivas y performativas realizadas por el ser humano.</p>
+        
+        <div class="text-center mt-4">
+            <h3 class="subtitle">Profesor: Max González</h3>
+            <h3 class="subtitle">Día: Jueves</h3>
+            <h3 class="subtitle">Carga Horaria: 20:00 hs a 22:00 hs</h3>
+            <h3>Exigencia: ★☆☆☆☆</h3>
+            <h3>Contacto: maxcarreras@coches.com</h3>
+        </div>
+
+        <h2 class="mt-5">Contenidos:</h2>
+
+        <h2 class="mt-4">Primer Cuatrimestre:</h2>
+        <ul class="text-center">
+            <li>Escalas de Grises</li>
+            <li>Surrealismo</li>
+            <li>Los Relojes de Dalí y un Enfoque Crítico del Tiempo Perdido</li>
+        </ul>
+
+        <h2 class="mt-4">Segundo Cuatrimestre:</h2>
+        <ul class="text-center">
+            <li>Historia del Arte</li>
+            <li>Andy Warhol y lo Absurdo de lo Absurdo</li>
+            <li>El Futuro del Arte</li>
+        </ul>
+
+        <div class="text-center mt-5">
+            <a href="../index.html" class="btn-primary">VOLVER ATRÁS</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
