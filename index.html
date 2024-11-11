@@ -1,78 +1,145 @@
-<!doctype HTML>
-<html>
-	<head>
-		<title>6TO5TA</title>
-		<link rel="stylesheet" href="src/style/styles.css"
-		<script src="src/js/functions.js"></script>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-	</head>
-	<body>
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6TO5TA - Informática</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f0f8ff;
+            color: #003366;
+            font-family: Arial, sans-serif;
+        }
+        .banner {
+            background-color: #ADD8E6;
+            color: #ffffff;
+            padding: 2rem;
+            text-align: center;
+            background-image: url('https://www.transparenttextures.com/patterns/blueprint.png');
+            background-size: cover;
+        }
+        .banner h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #003366;
+        }
+        .banner h2 {
+            font-size: 1.5rem;
+            color: #1976d2;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            margin-top: 1rem;
+        }
+        table, th, td {
+            border: 1px solid #1976d2;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #1976d2;
+            color: #ffffff;
+        }
+        td a {
+            color: #003366;
+            text-decoration: none;
+        }
+        td a:hover {
+            text-decoration: underline;
+        }
+        .btn-primary {
+            background-color: #1976d2;
+            border: none;
+            font-size: 1rem;
+            padding: 0.5rem 1.5rem;
+            margin-top: 1rem;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
 
-		<h1 style="text-align: center;">E.E.S.T N6 || Curso de 6'5  </h1>
-		<h1 style="text-align: center;">INFORMATICA</h1>
+    <header class="banner">
+        <h1>E.E.S.T N°6 | Curso de 6°5 - Informática</h1>
+        <h2>"Una escuela rica en historia y profesorado" - Jorge Luis Borges</h2>
+    </header>
 
-		
-		<h2 style="text-align: center;">"Una escuela rica en historia y profesorado" - Jorge Luis Borges</h2>
-		<h1 style="text-align: center;">Bienvenidos a la Guía del Curso de 6*5 - Modalidad Informática</h1>
+    <div class="container mt-5">
+        <h1 class="text-center">Bienvenidos a la Guía del Curso de 6°5 - Modalidad Informática</h1>
+        <p class="text-center">Este sitio está diseñado como una guía para los futuros alumnos que están por comenzar el curso de 6°5 en la modalidad informática. Aquí encontrarás toda la información que necesitas para prepararte para las clases teóricas y para el taller práctico. ¡Explora conocimientos en desarrollo web, programación y redes para aprovechar al máximo esta etapa!</p>
 
-		<h2> Este sitio está diseñado como una guía para los futuros alumnos que están por comenzar el curso de 6*5 en la modalidad informática. Aquí encontrarás toda la información que necesitas para prepararte para las clases teóricas, que se dictan de lunes a viernes de 17:45 a 22:00 hs, y para el taller práctico, que se realiza de 13:15 a 17:30 hs.
+        <h2 class="mt-5">Teoría:</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="src/inv_op.html" target="_blank">Investigación Operativa</a></td>
+                    <td><a href="src/derecho.html" target="_blank">Derecho del Trabajador</a></td>
+                    <td><a href="src/sinformatica.html" target="_blank">Seguridad Informática</a></td>
+                    <td><a href="src/literatura.html" target="_blank">Literatura</a></td>
+                    <td><a href="src/ingles.html" target="_blank">Inglés</a></td>
+                </tr>
+                <tr>
+                    <td><a href="src/mate.html" target="_blank">Análisis Matemático</a></td>
+                    <td><a href="src/filo.html" target="_blank">Filosofía</a></td>
+                    <td><a href="src/sdigitales.html" target="_blank">Sistemas Digitales</a></td>
+                    <td><a href="src/arte.html" target="_blank">Arte</a></td>
+                    <td><a href="src/sinformatica.html" target="_blank">Seguridad Informática</a></td>
+                </tr>
+            </tbody>
+        </table>
 
-			Exploraremos conocimientos informáticos esenciales que abarcan desarrollo web, programación y redes, combinando teoría y práctica para brindarte una formación completa. ¡Esta guía te ayudará a familiarizarte con lo que te espera y a llegar preparado para aprovechar al máximo esta etapa!
-			
-			 </h2>
+        <h2 class="mt-5">Taller:</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>No hay</td>
+                    <td><a href="src/lhardware.html" target="_blank">Laboratorio de Hardware</a></td>
+                    <td><a href="src/efisica.html" target="_blank">Educación Física</a></td>
+                    <td><a href="src/laplicaciones.html" target="_blank">Laboratorio de Aplicaciones</a></td>
+                    <td><a href="src/loperativos.html" target="_blank">Laboratorio de Sistemas Operativos</a></td>
+                </tr>
+                <tr>
+                    <td>No hay</td>
+                    <td><a href="src/lhardware.html" target="_blank">Laboratorio de Hardware</a></td>
+                    <td>No hay</td>
+                    <td><a href="src/lprogramacion.html" target="_blank">Laboratorio de Programación</a></td>
+                    <td><a href="src/loperativos.html" target="_blank">Laboratorio de Sistemas Operativos</a></td>
+                </tr>
+            </tbody>
+        </table>
 
-		<p>TEORÍA:</P>
-		<table border="1">
-			<tr>
-				<td>LUNES</td>
-				<td>MARTES</td>
-				<td>MIÉRCOLES</td>
-				<td>JUEVES</td>
-				<td>VIERNES</td>
-			</tr>
-			<tr>
-				<td><a href="src/inv_op.html" target="_blank">INVESTIGACIÓN OPERATIVA</a></td>
-				<td><a href="src/derecho.html" target="_blank">DERECHO DEL TRABAJADOR</a></td>
-				<td><a href="src/sinformatica.html" target="_blank">SEGURIDAD INFORMÁTICA</a></td>
-				<td><a href="src/literatura.html" target="_blank">LITERATURA</a></td>
-				<td><a href="src/ingles.html" target="_blank">INGLES</a></td>
-			</tr>
-			<tr>
-				<td><a href="src/mate.html" target="_blank">ANÁLISIS MATEMÁTICO</a></td>
-				<td><a href="src/filo.html" target="_blank">FILOSOFÍA</a></td>
-				<td><a href="src/sdigitales.html" target="_blank">SISTEMAS DIGITALES</a></td>
-				<td><a href="src/arte.html" target="_blank">ARTE</a></td>
-				<td><a href="src/sinformatica.html" target="_blank">SEGURIDAD INFORMÁTICA</a></td>
+        <div class="text-center mt-4">
+            <a href="src/faq.html" target="_blank" class="btn btn-primary">Preguntas Frecuentes</a>
+        </div>
+    </div>
 
-			</tr>
-		</table>
-
-		<p>TALLER:</P>
-			<table border="1">
-				<tr>
-					<td>LUNES</td>
-					<td>MARTES</td>
-					<td>MIÉRCOLES</td>
-					<td>JUEVES</td>
-					<td>VIERNES</td>
-				</tr>
-				<tr>
-					<td>NO HAY</td>
-					<td><a href="src/lhardware.html" target="_blank">LABORATORIO DE HARDWARE</a></td>
-					<td><a href="src/efisica.html" target="_blank">EDUCACIÓN FÍSICA</a></td>
-					<td><a href="src/laplicaciones.html" target="_blank">LABORATORIO DE APLICACIONES</a></td>
-					<td><a href="src/loperativos.html" target="_blank">LABORATORIO DE SISTEMAS OPERATIVOS</a></td>
-				</tr>
-				<tr>
-					<td>NO HAY</td>
-					<td><a href="src/lhardware.html" target="_blank">LABORATORIO DE HARDWARE</a></td>
-					<td>NO HAY</td>
-					<td><a href="src/lprogramacion.html" target="_blank">LABORATORIO DE PROGRAMACIÓN</a></td>
-					<td><a href="src/loperativos.html" target="_blank">LABORATORIO DE SISTEMAS OPERATIVOS</a></td>	
-				</tr>
-			</table>
-			<h3><a href="src/faq.html" target="_blank" class="btn btn-primary">PREGUNTAS FRECUENTES</a></h3>
-
-	</body>
-
+</body>
 </html>
