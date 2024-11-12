@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio de Programación</title>
-    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome para íconos -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <style>
         .banner {
-            background-color: #f4b400; /* Color personalizado */
+            background-color: #f4b400;
             background-image: url('https://www.transparenttextures.com/patterns/debut-light.png');
             background-size: cover;
             color: #333;
@@ -31,7 +29,7 @@
             margin-top: 2rem;
         }
         h1, h2, h3 {
-            color: #d97706;
+            color: #333;
             text-align: center;
         }
         .subtitle {
@@ -40,43 +38,55 @@
         }
         ul {
             list-style-type: none;
-            padding: 0;
+            padding-left: 0;
+            color: #003366;
         }
-        ul li::before {
-            content: "\2022";
-            color: #d97706;
-            font-weight: bold;
+        ul li {
+            padding: 8px 0;
+        }
+        .btn-primary {
             display: inline-block;
-            width: 1em;
-            margin-left: -1em;
-        }
-        a {
-            color: #007bff;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
             text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
         }
-        a:hover {
-            text-decoration: underline;
+        .btn-primary:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
 
-    <div class="banner">
-        <h1><i class="fas fa-laptop-code icon"></i> Laboratorio de Programación</h1>
-    </div>
+    <header class="banner">
+        <div class="d-flex justify-content-center align-items-center">
+            <i class="fas fa-laptop-code icon"></i>
+            <h1 class="display-4">Laboratorio de Programación</h1>
+            <i class="fas fa-code icon"></i>
+        </div>
+    </header>
 
-    <div class="container">
-        <p class="subtitle">Materia en la que se enseña a programar, escribir código y resolver problemas en diversos lenguajes de programación.</p>
-        <h3>Profesor: <i>Aldo Delgado</i></h3>
-        <h3>Día: <i>Jueves</i></h3>
-        <h3>Carga Horaria: <i>15:30 HS a 17:30 HS</i></h3>
-        <h3>Exigencia: ★★★★★</h3>
-        <h3>Contacto: <i>prof.aldodelgado@gmail.com</i></h3>
+    <div class="container mt-5">
+        <p class="mx-auto text-center subtitle" style="width: 75%;">Materia en la que se enseña a programar, escribir código y resolver problemas en diversos lenguajes de programación.</p>
+        
+        <div class="text-center mt-4">
+            <h3>Profesor: <i>Aldo Delgado</i></h3>
+            <h3>Día: <i>Jueves</i></h3>
+            <h3>Carga Horaria: <i>15:30 HS a 17:30 HS</i></h3>
+            <h3>Exigencia: ★★★★★</h3>
+            <h3>Contacto: <i>prof.aldodelgado@gmail.com</i></h3>
+        </div>
 
-        <h2>Contenidos</h2>
+        <h2 class="mt-5">Contenidos:</h2>
 
-        <h3>Primer Cuatrimestre</h3>
-        <ul>
+        <h3 class="mt-4">Primer Cuatrimestre:</h3>
+        <ul class="text-center">
             <li>Conceptos básicos de C++</li>
             <li>Tipos de datos</li>
             <li>Resolución de problemas en C++</li>
@@ -84,8 +94,8 @@
             <li>Ciclo for</li>
         </ul>
 
-        <h3>Segundo Cuatrimestre</h3>
-        <ul>
+        <h3 class="mt-4">Segundo Cuatrimestre:</h3>
+        <ul class="text-center">
             <li>Arrays</li>
             <li>Recorrido de arrays</li>
             <li>Funciones y procedimientos</li>
@@ -93,19 +103,20 @@
             <li>Método burbuja</li>
         </ul>
 
-        <h3>TPs y Evaluaciones</h3>
-        <ul>
+        <h2 class="mt-5">TPs y Evaluaciones:</h2>
+        <ul class="text-center">
             <li>TP N°1</li>
             <li>Evaluación de arrays</li>
             <li>TP N°2</li>
         </ul>
 
-        <p><a href="../index.html"><i class="fas fa-arrow-left"></i> Volver Atrás</a></p>
+        <div class="text-center mt-5">
+            <a href="../index.html" class="btn-primary">VOLVER ATRÁS</a>
+        </div>
     </div>
 
-    <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
