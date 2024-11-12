@@ -1,53 +1,108 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratorio De Sistemas Operativos </title>
+    <title>Laboratorio de Sistemas Operativos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para íconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        .banner {
+            background-color: #c8e6c9; /* Verde claro */
+            background-image: url('https://www.transparenttextures.com/patterns/debut-light.png');
+            background-size: cover;
+            color: #333;
+            padding: 2rem;
+        }
+        .banner .icon {
+            font-size: 2.5rem;
+            color: #388e3c;
+            margin: 0 1rem;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+        h1, h2 {
+            color: #388e3c;
+        }
+        ul {
+            list-style-type: square;
+            color: #388e3c;
+            text-align: left;
+        }
+        .btn-secondary {
+            background-color: #388e3c;
+            border: none;
+        }
+        .btn-secondary:hover {
+            background-color: #2e7d32;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">LABORATORIO DE SISTEMAS OPERATIVOS</h1>
-    <p style="text-align : center;"> los estudiantes estudian e implementan los conceptos de los sistemas operativos, así como los problemas que pueden presentar. </p>
-    <h3><i>PROFESOR: MARIA INES RIOS </i></h3>
-    <h3><i>DÍAS : VIERNES </i></h3>
-    <h3><i>CARGA HORARIA: 13:15 a 17:35</i></h3>
-    <h3>EXIGENCIA: ★★★★☆</h3>
-    <h3>CONTACTO: prof.maririos@gmail.com</h3>
 
-    <h1>CONTENIDOS:</h1>
-    <h2>PRIMER CUATRIMESTRE:</h2>
-    <ul>
-        <li>Conocer claramente la diferencia entre una red con una arquitectura igualitaria y una jerárquica.</li>
-        <li>Planificar y configurar una red teniendo en cuenta infraestructura, recursos, equipos y usuarios.</li>
-        <li>Seleccionar correctamente un servidor en relación con las demandas de hardware y software.</li>
-        <li>Identificar similitudes y diferencia entre Sistemas Operativos de red Windows Server y Linux Server.</li>
-        <li>Instalar y configurar de Windows Server (2003-2008)</li>
-        <li>Establecer una correcta conectividad entre el servidor y las estaciones de trabajo poniendo en marcha protocolos de configuración.</li>
-        
-    </ul>
-    <h2>SEGUNDO CUATRIMESTRE:</h2>
-    <ul>
-        <li>Conocer en instalar funciones en el Servidor.</li>
-        <li>Analizar y comprender las características del Servicio de Directorio Activo.</li>
-        <li>Comprender con más profundidad el concepto de Dominio y subdominio. Agregar equipos a un dominio.</li>
-        <li>Crear y administrar Usuarios, grupos, unidades organizativas.</li>
-        <li>Utilizar el lenguaje PHP para conectar la web a un Servidor.</li> 
-        <li>Configurar eficazmente políticas de seguridad en la red para restringir y conceder permisos a los recursos de la red. </li>
+    <!-- Banner decorativo -->
+    <header class="banner text-center">
+        <div class="d-flex justify-content-center align-items-center">
+            <i class="fas fa-network-wired icon"></i>
+            <h1 class="display-4">Laboratorio de Sistemas Operativos</h1>
+            <i class="fas fa-server icon"></i>
+        </div>
+        <p class="lead">Implementación y manejo de sistemas operativos en entornos de red</p>
+    </header>
 
-        <h1 style="text-align: center;">TRABAJO PRACTICO INTEGRADOR ANUAL</h1>
-        <h2 style="text-align: center;">El trabajo INTEGRADOR constara de :</h2>
-        <li style="text-align: center">Una parte teórica, donde el alumno deberá planificar la instalación de una red, de acuerdo a un problema planteado </li>
-        <li style="text-align: center">Luego una parte práctica, donde pondrá en marcha un servidor e instalará los componentes necesarios para su correcto funcionamiento. </li>
-    
+    <div class="container mt-5">
+        <h1>Laboratorio de Sistemas Operativos</h1>
+        <p class="mx-auto" style="width: 60%;">En esta materia, los estudiantes estudian e implementan los conceptos de los sistemas operativos, así como los problemas que pueden presentar en entornos de red y servidor.</p>
+       
+        <h3><i>PROFESOR: María Inés Ríos</i></h3>
+        <h3><i>DÍA: Viernes</i></h3>
+        <h3><i>CARGA HORARIA: 13:15 hs a 17:35 hs</i></h3>
+        <h3>EXIGENCIA: ★★★★☆</h3>
+        <h3>CONTACTO: prof.maririos@gmail.com</h3>
 
-        
-            
-            
-           
-            
-    </ul>
-    <p><a href="../index.html">VOLVER ATRÁS</a></p>
+        <h1>Contenidos:</h1>
+       
+        <h2>Primer Cuatrimestre:</h2>
+        <ul>
+            <li>Diferencias entre arquitecturas de red igualitaria y jerárquica.</li>
+            <li>Planificación y configuración de redes: infraestructura, recursos, equipos y usuarios.</li>
+            <li>Selección de servidores adecuados a las demandas de hardware y software.</li>
+            <li>Comparación entre Windows Server y Linux Server en redes.</li>
+            <li>Instalación y configuración de Windows Server (2003-2008).</li>
+            <li>Configuración de conectividad entre el servidor y las estaciones de trabajo.</li>
+        </ul>
+       
+        <h2>Segundo Cuatrimestre:</h2>
+        <ul>
+            <li>Instalación y configuración de funciones en el servidor.</li>
+            <li>Análisis y configuración del Servicio de Directorio Activo.</li>
+            <li>Gestión de dominio y subdominio, y agregar equipos al dominio.</li>
+            <li>Creación y administración de usuarios, grupos y unidades organizativas.</li>
+            <li>Uso de PHP para la conexión de aplicaciones web al servidor.</li>
+            <li>Configuración de políticas de seguridad en la red para gestión de permisos.</li>
+        </ul>
+
+        <h1 class="text-center">Trabajo Práctico Integrador Anual</h1>
+        <h2 class="text-center">El trabajo integrador constará de:</h2>
+        <ul class="text-center">
+            <li>Una parte teórica donde el alumno deberá planificar la instalación de una red según un caso planteado.</li>
+            <li>Una parte práctica en la que pondrá en marcha un servidor y configurará los componentes necesarios.</li>
+        </ul>
+
+        <p class="text-center"><a href="../index.html" class="btn btn-secondary mt-4">VOLVER ATRÁS</a></p>
+    </div>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,36 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FILOSOFÍA</title>
+    <title>Filosofía</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para íconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados para el banner */
+        .banner {
+            background-color: #d1c4e9;
+            background-image: url('https://www.transparenttextures.com/patterns/debut-light.png');
+            background-size: cover;
+            color: #333;
+            padding: 2rem;
+        }
+        .banner .icon {
+            font-size: 2.5rem;
+            color: #6a1b9a;
+            margin: 0 1rem;
+        }
+        /* Estilo del contenedor principal */
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #333;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #6a1b9a;
+        }
+        ul {
+            list-style-type: square;
+            color: #6a1b9a;
+            display: inline-block;
+            text-align: left;
+        }
+        .btn-secondary {
+            background-color: #6a1b9a;
+            border: none;
+        }
+        .btn-secondary:hover {
+            background-color: #4a148c;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">FILOSOFÍA</h1>
-    <h1 style="text-align: center;"><I>"Chapó, me saco el sombrero"</I></h1>
-    <p style="width: 50%;">La filosofía es el estudio de cuestiones fundamentales sobre la existencia, el conocimiento, la verdad, la moral y la mente, usando el pensamiento crítico y la lógica.</p>
-    <h3><i>PROFESOR: LEONARDO SÓCRATES </i></h3>
-    <h3><i>DÍA: MARTES</i></h3>
-    <h3><i>CARGA HORARIA: 20:00HS a 22:00HS</i></h3>
-    <h3>EXIGENCIA: ★★★★☆</h3>
-    <h3>CONTACTO: eleternoretorno@kantmail.com</h3>
 
-    <h1>CONTENIDOS:</h1>
-    <h2>PRIMER CUATRIMESTRE:</h2>
-    <ul>
-        <li>LA CAVERNA DE PLATÓN</li>
-        <li>LA ÉTICA KANTIANA</li>
-        <li>LA FILOSOFÍA DE SPINOZA</li>
-        <li>NIETZSCHE Y LAS TRANSFORMACIONES DEL ALMA</li>
-    </ul>
-    <h2>SEGUNDO CUATRIMESTRE:</h2>
-    <ul>
-        <li>LA FENOMENOLOGÍA DEL ESPÍRITU DE HEGEL</li>
-        <li>NIETZSCHE Y LA MUERTE DE DIOS</li>
-        <li>JOJO RABBIT</li>
-        <li>TEOLOGÍA</li>
-    </ul>
-    <p><a href="../index.html">VOLVER ATRÁS</a></p>
+    <!-- Banner decorativo -->
+    <header class="banner text-center">
+        <div class="d-flex justify-content-center align-items-center">
+            <i class="fas fa-book icon"></i>
+            <h1 class="display-4">Bienvenidos a Filosofía</h1>
+            <i class="fas fa-brain icon"></i>
+        </div>
+        <p class="lead">Explorando las grandes preguntas de la existencia y el pensamiento crítico</p>
+    </header>
+
+    <div class="container mt-5">
+        <h1>Filosofía</h1>
+        <h2 class="text-center"><i>"Chapó, me saco el sombrero"</i></h2>
+        <p class="mx-auto" style="width: 60%;">La filosofía es el estudio de cuestiones fundamentales sobre la existencia, el conocimiento, la verdad, la moral y la mente, usando el pensamiento crítico y la lógica.</p>
+       
+        <h3><i>PROFESOR: Leonardo Sócrates</i></h3>
+        <h3><i>DÍA: Martes</i></h3>
+        <h3><i>CARGA HORARIA: 20:00 hs a 22:00 hs</i></h3>
+        <h3>EXIGENCIA: ★★★★★</h3>
+        <h3>CONTACTO: eleternoretorno@kantmail.com</h3>
+
+        <h1>Contenidos:</h1>
+       
+        <h2>Primer Cuatrimestre:</h2>
+        <ul class="text-center">
+            <li>La Caverna de Platón</li>
+            <li>La Ética Kantiana</li>
+            <li>La Filosofía de Spinoza</li>
+            <li>Nietzsche y las Transformaciones del Alma</li>
+        </ul>
+       
+        <h2>Segundo Cuatrimestre:</h2>
+        <ul class="text-center">
+            <li>La Fenomenología del Espíritu de Hegel</li>
+            <li>Nietzsche y la Muerte de Dios</li>
+            <li>Jojo Rabbit</li>
+            <li>Teología</li>
+        </ul>
+       
+        <p><a href="../index.html" class="btn btn-secondary mt-4">Volver Atrás</a></p>
+    </div>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

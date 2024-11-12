@@ -1,36 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LITERATURA</title>
+    <title>Literatura</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para íconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados para el banner */
+        .banner {
+            background-color: #ADD8E6; /* Azul clarito */
+            background-image: url('https://www.transparenttextures.com/patterns/debut-light.png');
+            background-size: cover;
+            color: #333;
+            padding: 2rem;
+        }
+        .banner .icon {
+            font-size: 2.5rem;
+            color: #1976d2;
+            margin: 0 1rem;
+        }
+        /* Estilo del contenedor principal */
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #333;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #1976d2;
+        }
+        ul {
+            list-style-type: square;
+            color: #1976d2;
+            display: inline-block;
+            text-align: left;
+        }
+        .btn-secondary {
+            background-color: #1976d2;
+            border: none;
+        }
+        .btn-secondary:hover {
+            background-color: #0d47a1;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">LITERATURA</h1>
-    <p style="width: 50%;">La materia de literura estudia obras escritas diversos generos , epocas y culturas ,analizando su estructura , estilo ,y contenido,para fomentar la comprension y apreciacion del arte literario. </p>
-    <h3><i>PROFESOR: MIRTA CAMACHO </i></h3>
-    <h3><i>DÍA: JUEVES </i></h3>
-    <h3><i>CARGA HORARIA: 17:45 HS A 19:45 HS</i></h3>
-    <h3>EXIGENCIA: ★★★★☆</h3>
-    <h3>CONTACTO:mirtacamacho@gmail.com</h3>
 
+    <!-- Banner decorativo -->
+    <header class="banner text-center">
+        <div class="d-flex justify-content-center align-items-center">
+            <i class="fas fa-book icon"></i>
+            <h1 class="display-4">Literatura</h1>
+            <i class="fas fa-feather-alt icon"></i>
+        </div>
+        <p class="lead">Explorando el arte literario a través de géneros y épocas</p>
+    </header>
 
-    <h1>CONTENIDOS:</h1>
-    <h2>PRIMER CUATRIMESTRE:</h2>
-    <ul>
-        <li>INTERMITENCIAS DE LA MUERTE</li>
-        <li>LA INTRUSA</li>
-        <li>LA NONA </li>
+    <div class="container mt-5">
+        <h1>Literatura</h1>
+        <p class="mx-auto" style="width: 60%;">La materia de Literatura estudia obras escritas de diversos géneros, épocas y culturas, analizando su estructura, estilo y contenido para fomentar la comprensión y apreciación del arte literario.</p>
        
-    </ul>
-    <h2>SEGUNDO CUATRIMESTRE:</h2>
-    <ul>
-        <li>¿COMO VUELVO?</li>
-        <li>MALA SANGRE</li>
-        <li>EL MATADERO</li>
+        <h3><i>PROFESOR: Mirta Camacho</i></h3>
+        <h3><i>DÍA: Jueves</i></h3>
+        <h3><i>CARGA HORARIA: 17:45 hs a 19:45 hs</i></h3>
+        <h3>EXIGENCIA: ★★★★☆</h3>
+        <h3>CONTACTO: mirtacamacho@gmail.com</h3>
+
+        <h1>Contenidos:</h1>
        
-    </ul>
-    <p><a href="../index.html">VOLVER ATRÁS</a></p>
+        <h2>Primer Cuatrimestre:</h2>
+        <ul class="text-center">
+            <li>Intermitencias de la muerte</li>
+            <li>La intrusa</li>
+            <li>La nona</li>
+        </ul>
+       
+        <h2>Segundo Cuatrimestre:</h2>
+        <ul class="text-center">
+            <li>¿Cómo vuelvo?</li>
+            <li>Mala sangre</li>
+            <li>El matadero</li>
+        </ul>
+       
+        <p><a href="../index.html" class="btn btn-secondary mt-4">Volver Atrás</a></p>
+    </div>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,39 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INVESTIGACIÓN OPERATIVA</title>
+    <title>Investigación Operativa</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para íconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados para el banner */
+        .banner {
+            background-color: #ffcc80; /* Naranja claro */
+            background-image: url('https://www.transparenttextures.com/patterns/debut-light.png');
+            background-size: cover;
+            color: #333;
+            padding: 2rem;
+        }
+        .banner .icon {
+            font-size: 2.5rem;
+            color: #ef6c00;
+            margin: 0 1rem;
+        }
+        /* Estilo del contenedor principal */
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #333;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #ef6c00;
+        }
+        ul {
+            list-style-type: square;
+            color: #ef6c00;
+            display: inline-block;
+            text-align: left;
+        }
+        .btn-secondary {
+            background-color: #ef6c00;
+            border: none;
+        }
+        .btn-secondary:hover {
+            background-color: #d84315;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">INVESTIGACIÓN OPERATIVA</h1>
-    <h1 style="text-align: center;"><I>"Porotos Bun"</I></h1>
-    <p style="width: 50%;">Esta es una materia que sólo tienen los estudiantes de técnica en informática. ES una disciplina que aplica métodos matemáticos y análisis para optimizar la toma de decisiones de sistemas complejos.</p>
-    <h3><i>PROFESOR: FEDERICO ALBORNOZ</i></h3>
-    <h3><i>DÍA:LUNES</i></h3>
-    <h3><i>CARGA HORARIA: 16:45 HS A 19:45HS</i></h3>
-    <h3>EXIGENCIA: ★★★★★</h3>
-    <h3>CONTACTO: fede.albo@yahoo.es</h3>
 
+    <!-- Banner decorativo -->
+    <header class="banner text-center">
+        <div class="d-flex justify-content-center align-items-center">
+            <i class="fas fa-chart-line icon"></i>
+            <h1 class="display-4">Investigación Operativa</h1>
+            <i class="fas fa-calculator icon"></i>
+        </div>
+        <p class="lead">Optimización de decisiones a través de métodos matemáticos y análisis</p>
+    </header>
 
-    <h1>CONTENIDOS:</h1>
-    <h2>PRIMER CUATRIMESTRE:</h2>
-    <ul>
-        <li>FUNCIONES CUADRÁTICAS</li>
-        <li>METODO SIMPLEX</li>
-        <li>FUNCIONES CUADRÁTICAS</li>
-
-
-        <li></li>
-    </ul>
-    <h2>SEGUNDO CUATRIMESTRE:</h2>
-    <ul>
-        <li>TEORÍA DE GRAFOS: Esta es un área de la matemática que se enfoca en el análisis de grafos.</li>
-        <li>CAMINOS EULERIANOS</li>
-        <li>CAMINOS HAMILTONIANOS</li>
+    <div class="container mt-5">
+        <h1>Investigación Operativa</h1>
+        <p class="mx-auto" style="width: 60%;">Esta es una materia que sólo tienen los estudiantes de técnica en informática. Es una disciplina que aplica métodos matemáticos y análisis para optimizar la toma de decisiones en sistemas complejos.</p>
        
-    </ul>
-    <p><a href="../index.html">VOLVER ATRÁS</a></p>
+        <h3><i>PROFESOR: Federico Albornoz</i></h3>
+        <h3><i>DÍA: Lunes</i></h3>
+        <h3><i>CARGA HORARIA: 16:45 hs a 19:45 hs</i></h3>
+        <h3>EXIGENCIA: ★★★★★</h3>
+        <h3>CONTACTO: fede.albo@yahoo.es</h3>
+
+        <h1>Contenidos:</h1>
+       
+        <h2>Primer Cuatrimestre:</h2>
+        <ul class="text-center">
+            <li>Funciones Cuadráticas</li>
+            <li>Método Simplex</li>
+        </ul>
+       
+        <h2>Segundo Cuatrimestre:</h2>
+        <ul class="text-center">
+            <li>Teoría de Grafos: análisis de grafos</li>
+            <li>Caminos Eulerianos</li>
+            <li>Caminos Hamiltonianos</li>
+        </ul>
+       
+        <p><a href="../index.html" class="btn btn-secondary mt-4">Volver Atrás</a></p>
+    </div>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

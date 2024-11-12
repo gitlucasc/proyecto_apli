@@ -1,39 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEGURIDAD INFORMATICA</title>
+    <title>Seguridad Informática</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para íconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        .banner {
+            background-color: #e57373; /* Rojo suave */
+            background-image: url('https://www.transparenttextures.com/patterns/debut-light.png');
+            background-size: cover;
+            color: #333;
+            padding: 2rem;
+        }
+        .banner .icon {
+            font-size: 2.5rem;
+            color: #b71c1c;
+            margin: 0 1rem;
+        }
+        .container {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 2rem;
+        }
+        h1, h2, h3 {
+            color: #b71c1c;
+            text-align: center;
+        }
+        .subtitle {
+            font-style: italic;
+            color: #666;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            color: #b71c1c;
+        }
+        ul li {
+            padding: 8px 0;
+        }
+        .btn-secondary {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #b71c1c;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn-secondary:hover {
+            background-color: #7f0000;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">SEGURIDAD INFORMATICA</h1>
-    <p style="width: 50%;">Seguridad informatica estudia como proteger datos y sistemas frente a ataques y accesos no autorizados. </p>
-    <h3><i>PROFESOR: LORENA LEGUIZAMON </i></h3>
-    <h3><i>DÍA: MIERCOLES </i></h3>
-    <h3><i>CARGA HORARIA: 17:45 HS A 19:45 HS</i></h3>
-    <h3>EXIGENCIA: ★★★☆☆</h3>
-    <h3>CONTACTO:lorenalegui@gmail.com</h3>
 
+    <!-- Banner decorativo -->
+    <header class="banner text-center">
+        <div class="d-flex justify-content-center align-items-center">
+            <i class="fas fa-shield-alt icon"></i>
+            <h1 class="display-4">Seguridad Informática</h1>
+            <i class="fas fa-lock icon"></i>
+        </div>
+        <p class="lead">Estudio de cómo proteger datos y sistemas frente a ataques y accesos no autorizados.</p>
+    </header>
 
-    <h1>CONTENIDOS:</h1>
-    <h2>PRIMER CUATRIMESTRE:</h2>
-    <ul>
-        <li>EL CUIDADO CON TUS DATOS EN LA WEB</li>
-        <li>CIBERCRIMEN</li>
-        <li>HACKERS INFORMATICOS </li>
-        <li>AMENZAS INFORMATICAS </li>
-       
-    </ul>
-    <h2>SEGUNDO CUATRIMESTRE:</h2>
-    <ul>
-        <li>SEGURIDAD FISICA , LOGICA Y DE RED </li>
-        <li>CRIPTOSISTEMAS</li>
-        <li>CIFRADOS</li>
-        <li>DELITOS CODIGO PENAL </li>
-        <li>APLICACIONES DELA INFORMATICA </li>
-       
-    </ul>
-    <p><a href="../index.html">VOLVER ATRÁS</a></p>
+    <div class="container mt-5">
+        <h1>Seguridad Informática</h1>
+        <p class="mx-auto text-center" style="width: 75%;">La materia de Seguridad Informática se enfoca en cómo proteger los datos y sistemas frente a accesos no autorizados y ciberataques.</p>
+        
+        <div class="text-center mt-4">
+            <h3 class="subtitle">Profesor: Lorena Leguizamón</h3>
+            <h3 class="subtitle">Día: Miércoles</h3>
+            <h3 class="subtitle">Carga Horaria: 17:45 HS a 19:45 HS</h3>
+            <h3>Exigencia: ★★★☆☆</h3>
+            <h3>Contacto: lorenalegui@gmail.com</h3>
+        </div>
+
+        <h2 class="mt-5">Contenidos:</h2>
+
+        <h2 class="mt-4">Primer Cuatrimestre:</h2>
+        <ul class="text-center">
+            <li>El cuidado con tus datos en la web</li>
+            <li>Cibercrimen</li>
+            <li>Hackers informáticos</li>
+            <li>Amenazas informáticas</li>
+        </ul>
+
+        <h2 class="mt-4">Segundo Cuatrimestre:</h2>
+        <ul class="text-center">
+            <li>Seguridad física, lógica y de red</li>
+            <li>Criptosistemas</li>
+            <li>Cifrados</li>
+            <li>Delitos en el código penal</li>
+            <li>Aplicaciones de la informática</li>
+        </ul>
+
+        <div class="text-center mt-5">
+            <a href="../index.html" class="btn-secondary">VOLVER ATRÁS</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,46 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LABORATORIO DE PROGRAMACION</title>
+    <title>Materia Nueva</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para íconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        .banner {
+            background-color: #f4b400; /* Color personalizado */
+            background-image: url('https://www.transparenttextures.com/patterns/debut-light.png');
+            background-size: cover;
+            color: #333;
+            padding: 2rem;
+        }
+        .banner .icon {
+            font-size: 2.5rem;
+            color: #d97706;
+            margin: 0 1rem;
+        }
+        .container {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 2rem;
+        }
+        h1, h2, h3 {
+            color: #d97706;
+            text-align: center;
+        }
+        .subtitle {
+            font-style: italic;
+            color: #666;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            color: #d97706;
+        }
+        ul li {
+            padding: 8px 0;
+        }
+        .btn-secondary {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #d97706;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn-secondary:hover {
+            background-color: #b45309;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="text-align: center;">EDUCACION FISICA</h1>
-    <p style="width: 50%;">MATERIA EN LA QUE SE ENSEÑA A PROGRAMAR , ESCRIRBIR CODIGOSBY RESOLVER PROBLEMAS EN LENGUAJES DE PROGRAMACION  </p>
-    <h3><i>PROFESOR: ALDO DELGADO </i></h3>
-    <h3><i>DÍA:JUEVES</i></h3>
-    <h3><i>CARGA HORARIA: 15:30 HS A 17:30HS</i></h3>
-    <h3>EXIGENCIA: ★★★★★</h3>
-    <h3>CONTACTO:prof.aldodelgado@gmail.com</h3>
 
+    <!-- Banner decorativo -->
+    <header class="banner text-center">
+        <div class="d-flex justify-content-center align-items-center">
+            <i class="fas fa-book icon"></i>
+            <h1 class="display-4">Materia Nueva</h1>
+            <i class="fas fa-graduation-cap icon"></i>
+        </div>
+        <p class="lead">Descripción breve de la materia nueva.</p>
+    </header>
 
-    <h1>CONTENIDOS:</h1>
-    <h2>PRIMER CUATRIMESTRE:</h2>
-    <ul>
-        <li>CONCEPTOS BASICOS DE C++</li>
-        <li>TIPOS DE DATOS</li>
-        <li>RESOLVER DIFERENTES PROGRAMAS EN C++</li>
-        <li>ENTRADA Y SALIDA</li>
-        <li>CICLO FOR</li>
-    </ul>
-    <h2>SEGUNDO CUATRIMESTRE:</h2>
-    <ul>
-       
-        <li>ARRAYS</li>
-        <li>RECORRER UN ARRAY</li>
-        <li>FUNCIONES Y PRODECIMIENTOS</li>
-        <li>PARAMETROS</li>
-        <li>METODO BURBUJA</li>
-       
-    </ul>
-    <h2>TPS Y EVALUACIONES:</h2>
-    <ul>
-        <li>TP N1 </li>
-        <li>EVLUACION ARRAYS</li>
-        <li>TP N2</li>
-    </ul>
-    <p><a href="../index.html">VOLVER ATRÁS</a></p>
+    <div class="container mt-5">
+        <h1>Materia Nueva</h1>
+        <p class="mx-auto text-center" style="width: 75%;">Descripción más detallada de la materia, incluyendo los objetivos y temas principales.</p>
+        
+        <div class="text-center mt-4">
+            <h3 class="subtitle">Profesor: Nombre del Profesor</h3>
+            <h3 class="subtitle">Día: Lunes</h3>
+            <h3 class="subtitle">Carga Horaria: 10:00 HS a 12:00 HS</h3>
+            <h3>Exigencia: ★★★☆☆</h3>
+            <h3>Contacto: profesor@example.com</h3>
+        </div>
+
+        <h2 class="mt-5">Contenidos:</h2>
+
+        <h2 class="mt-4">Primer Cuatrimestre:</h2>
+        <ul class="text-center">
+            <li>Tema 1</li>
+            <li>Tema 2</li>
+            <li>Tema 3</li>
+            <li>Tema 4</li>
+        </ul>
+
+        <h2 class="mt-4">Segundo Cuatrimestre:</h2>
+        <ul class="text-center">
+            <li>Tema 5</li>
+            <li>Tema 6</li>
+            <li>Tema 7</li>
+            <li>Tema 8</li>
+        </ul>
+
+        <div class="text-center mt-5">
+            <a href="../index.html" class="btn-secondary">VOLVER ATRÁS</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
