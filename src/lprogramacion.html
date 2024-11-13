@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Materia Nueva</title>
-    <!-- Bootstrap CSS -->
+    <title>Laboratorio de Programación</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome para íconos -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <style>
         .banner {
-            background-color: #f4b400; /* Color personalizado */
+            background-color: #f4b400;
             background-image: url('https://www.transparenttextures.com/patterns/debut-light.png');
             background-size: cover;
             color: #333;
             padding: 2rem;
+            text-align: center;
         }
         .banner .icon {
             font-size: 2.5rem;
@@ -30,7 +29,7 @@
             margin-top: 2rem;
         }
         h1, h2, h3 {
-            color: #d97706;
+            color: #333;
             text-align: center;
         }
         .subtitle {
@@ -40,17 +39,17 @@
         ul {
             list-style-type: none;
             padding-left: 0;
-            color: #d97706;
+            color: #003366;
         }
         ul li {
             padding: 8px 0;
         }
-        .btn-secondary {
+        .btn-primary {
             display: inline-block;
             padding: 10px 20px;
             font-size: 16px;
             color: #fff;
-            background-color: #d97706;
+            background-color: #007bff;
             border: none;
             border-radius: 5px;
             text-decoration: none;
@@ -58,59 +57,64 @@
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
-        .btn-secondary:hover {
-            background-color: #b45309;
+        .btn-primary:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
 
-    <!-- Banner decorativo -->
-    <header class="banner text-center">
+    <header class="banner">
         <div class="d-flex justify-content-center align-items-center">
-            <i class="fas fa-book icon"></i>
-            <h1 class="display-4">Materia Nueva</h1>
-            <i class="fas fa-graduation-cap icon"></i>
+            <i class="fas fa-laptop-code icon"></i>
+            <h1 class="display-4">Laboratorio de Programación</h1>
+            <i class="fas fa-code icon"></i>
         </div>
-        <p class="lead">Descripción breve de la materia nueva.</p>
     </header>
 
     <div class="container mt-5">
-        <h1>Materia Nueva</h1>
-        <p class="mx-auto text-center" style="width: 75%;">Descripción más detallada de la materia, incluyendo los objetivos y temas principales.</p>
+        <p class="mx-auto text-center subtitle" style="width: 75%;">Materia en la que se enseña a programar, escribir código y resolver problemas en diversos lenguajes de programación.</p>
         
         <div class="text-center mt-4">
-            <h3 class="subtitle">Profesor: Nombre del Profesor</h3>
-            <h3 class="subtitle">Día: Lunes</h3>
-            <h3 class="subtitle">Carga Horaria: 10:00 HS a 12:00 HS</h3>
-            <h3>Exigencia: ★★★☆☆</h3>
-            <h3>Contacto: profesor@example.com</h3>
+            <h3>Profesor: <i>Aldo Delgado</i></h3>
+            <h3>Día: <i>Jueves</i></h3>
+            <h3>Carga Horaria: <i>15:30 HS a 17:30 HS</i></h3>
+            <h3>Exigencia: ★★★★★</h3>
+            <h3>Contacto: <i>prof.aldodelgado@gmail.com</i></h3>
         </div>
 
         <h2 class="mt-5">Contenidos:</h2>
 
-        <h2 class="mt-4">Primer Cuatrimestre:</h2>
+        <h3 class="mt-4">Primer Cuatrimestre:</h3>
         <ul class="text-center">
-            <li>Tema 1</li>
-            <li>Tema 2</li>
-            <li>Tema 3</li>
-            <li>Tema 4</li>
+            <li>Conceptos básicos de C++</li>
+            <li>Tipos de datos</li>
+            <li>Resolución de problemas en C++</li>
+            <li>Entrada y salida</li>
+            <li>Ciclo for</li>
         </ul>
 
-        <h2 class="mt-4">Segundo Cuatrimestre:</h2>
+        <h3 class="mt-4">Segundo Cuatrimestre:</h3>
         <ul class="text-center">
-            <li>Tema 5</li>
-            <li>Tema 6</li>
-            <li>Tema 7</li>
-            <li>Tema 8</li>
+            <li>Arrays</li>
+            <li>Recorrido de arrays</li>
+            <li>Funciones y procedimientos</li>
+            <li>Parámetros</li>
+            <li>Método burbuja</li>
+        </ul>
+
+        <h2 class="mt-5">TPs y Evaluaciones:</h2>
+        <ul class="text-center">
+            <li>TP N°1</li>
+            <li>Evaluación de arrays</li>
+            <li>TP N°2</li>
         </ul>
 
         <div class="text-center mt-5">
-            <a href="../index.html" class="btn-secondary">VOLVER ATRÁS</a>
+            <a href="../index.html" class="btn-primary">VOLVER ATRÁS</a>
         </div>
     </div>
 
-    <!-- Bootstrap JS y dependencias -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
