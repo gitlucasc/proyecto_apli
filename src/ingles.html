@@ -5,25 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inglés</title>
+    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome para íconos -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <style>
         .banner {
-            background-color: #ADD8E6;
+            background-color: #ADD8E6; /* Azul claro */
             background-image: url('https://www.transparenttextures.com/patterns/debut-light.png');
             background-size: cover;
-            color: #ffffff;
+            color: #003366;
             padding: 2rem;
             text-align: center;
         }
-        .banner h1 {
+        .banner .icon {
             font-size: 2.5rem;
-            font-weight: bold;
-            color: #003366;
-        }
-        .banner p {
-            font-size: 1.2rem;
             color: #1976d2;
+            margin: 0 1rem;
         }
         .container {
             background-color: #ffffff;
@@ -36,18 +34,29 @@
             text-align: center;
             color: #003366;
         }
-        ul {
-            list-style-type: square;
-            color: #1976d2;
+        .subtitle {
+            font-style: italic;
+            color: #666;
+            text-align: center;
         }
-        .icon {
-            font-size: 2.5rem;
+        ul {
+            list-style-type: none;
+            padding-left: 0;
             color: #1976d2;
-            margin: 0 1rem;
+            text-align: center;
+        }
+        ul li {
+            padding: 8px 0;
         }
         .btn-secondary {
             background-color: #1976d2;
             border: none;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
         .btn-secondary:hover {
             background-color: #0056b3;
@@ -56,6 +65,7 @@
 </head>
 <body>
 
+    <!-- Banner decorativo -->
     <header class="banner">
         <div class="d-flex justify-content-center align-items-center">
             <i class="fas fa-book icon"></i>
@@ -66,37 +76,42 @@
     </header>
 
     <div class="container mt-5">
-        <h1>INGLÉS</h1>
-        <h2><i>"To Be"</i></h2>
-        <p class="mx-auto" style="width: 60%;">Inglés es una materia clave para los estudiantes de informática, donde exploramos el idioma global a través de la literatura y gramática esencial.</p>
+        <h1>Inglés</h1>
        
-        <h3><i>PROFESOR: Agustína Benítez</i></h3>
-        <h3><i>DÍA: Viernes</i></h3>
-        <h3><i>CARGA HORARIA: 20:00 hs a 22:00 hs</i></h3>
-        <h3>EXIGENCIA: ★★★★☆</h3>
-        <h3>CONTACTO: AgustinaBenitez@gmail.com</h3>
+        <p class="mx-auto text-center" style="width: 60%;">Inglés es una materia clave para los estudiantes de informática, donde exploramos el idioma global a través de la literatura y gramática esencial.</p>
+        
+        <div class="text-center mt-4">
+            <h3 class="subtitle">Profesor: Agustína Benítez</h3>
+            <h3 class="subtitle">Día: Viernes</h3>
+            <h3 class="subtitle">Carga Horaria: 20:00 hs a 22:00 hs</h3>
+            <h3>Exigencia: ★★★★☆</h3>
+            <h3>Contacto: AgustinaBenitez@gmail.com</h3>
+        </div>
 
-        <h1>CONTENIDOS:</h1>
-       
-        <h2>Primer Cuatrimestre:</h2>
+        <h2 class="mt-5">Contenidos:</h2>
+
+        <h2 class="mt-4">Primer Cuatrimestre:</h2>
         <ul>
             <li>Verbo "To Be"</li>
             <li>Pasados Simples y Continuos</li>
-            <li>Pasado perfecto</li>
+            <li>Pasado Perfecto</li>
             <li>Verbos Auxiliares y Modalidades</li>
         </ul>
-       
-        <h2>Segundo Cuatrimestre:</h2>
+
+        <h2 class="mt-4">Segundo Cuatrimestre:</h2>
         <ul>
             <li>Condicional 1</li>
             <li>Análisis de "The Black Cat"</li>
-            <li>condicional 2</li>
-            <li>Test de comprensión de textos</li>
+            <li>Condicional 2</li>
+            <li>Test de Comprensión de Textos</li>
         </ul>
-       
-        <p class="text-center"><a href="../index.html" class="btn btn-secondary mt-4">Volver Atrás</a></p>
+
+        <div class="text-center mt-5">
+            <a href="../index.html" class="btn-secondary">Volver Atrás</a>
+        </div>
     </div>
 
+    <!-- Bootstrap JS y dependencias -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
