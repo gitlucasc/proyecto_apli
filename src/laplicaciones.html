@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +10,16 @@
     <style>
         .banner {
             background-color: #d0ebff;
-            padding: 2rem;
+            background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+            background-size: cover;
             color: #333;
+            padding: 2rem;
+            text-align: center;
+        }
+        .banner .icon {
+            font-size: 2.5rem;
+            color: #007bff;
+            margin: 0 1rem;
         }
         .container {
             background-color: #fff;
@@ -19,6 +27,7 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-top: 2rem;
+            color: #333;
         }
         h1, h2, h3 {
             color: #333;
@@ -32,6 +41,7 @@
             list-style-type: none;
             padding-left: 0;
             color: #003366;
+            text-align: center;
         }
         ul li {
             padding: 8px 0;
@@ -45,8 +55,6 @@
             border: none;
             border-radius: 5px;
             text-decoration: none;
-            text-align: center;
-            cursor: pointer;
             transition: background-color 0.3s ease;
         }
         .btn-primary:hover {
@@ -56,8 +64,12 @@
 </head>
 <body>
 
-    <header class="banner text-center">
-        <h1 class="display-4">Laboratorio de Aplicaciones</h1>
+    <header class="banner">
+        <div class="d-flex justify-content-center align-items-center">
+            <i class="fas fa-flask icon"></i>
+            <h1 class="display-4">Laboratorio de Aplicaciones</h1>
+            <i class="fas fa-laptop-code icon"></i>
+        </div>
         <p class="lead">Evaluación y selección de plataformas de producción de hardware y software para aplicaciones y servicios informáticos</p>
     </header>
 
@@ -76,7 +88,7 @@
         <h2 class="mt-5">Contenidos:</h2>
 
         <h2 class="mt-4">Primer Cuatrimestre:</h2>
-        <ul class="text-center">
+        <ul>
             <li>Historia de la evolución de Internet y la WWW</li>
             <li>Estructura de un documento HTML</li>
             <li>Maquetación básica de una página web</li>
@@ -85,7 +97,7 @@
         </ul>
 
         <h2 class="mt-4">Segundo Cuatrimestre:</h2>
-        <ul class="text-center">
+        <ul>
             <li>Programación de scripts con JavaScript</li>
             <li>Fundamentos de CSS</li>
             <li>Conexión de HTML con CSS</li>
@@ -96,7 +108,7 @@
 
         <h1 class="mt-5 text-center">Trabajo Práctico Integrador Anual</h1>
         <h2 class="text-center">El trabajo integrador constará de:</h2>
-        <ul class="text-center">
+        <ul>
             <li>Preguntas teóricas sobre HTML, CSS, PHP y SQL</li>
             <li>Resolución de problemas con código dado</li>
             <li>Maquetación de una web integrando todos los conocimientos adquiridos</li>
@@ -107,6 +119,7 @@
         </div>
     </div>
 
+   
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
